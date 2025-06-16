@@ -1,7 +1,40 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+header:
+  overlay_color: "#000000"
+  overlay_filter: 0.6
+  overlay_image: /assets/images/banner.avif
+  actions:
+    - label: "Intake Form"
+      url: "https://google.com"
+      btn_class: "btn--info"
+    - label: "Schedule Appointment"
+      url: "https://wikipedia.org"
+      btn_class: "btn--info"
+excerpt: >
+  Independent facilitator for California Self Determination Program.
+feature_row:
+  - image_path: /assets/images/baby.jpg
+    alt: "What is SDP"
+    title: "What is SDP?"
+    excerpt: "SDP is a program to help clients of the Regional Center thrive."
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/forms.jpg
+    alt: "enrollment process"
+    title: "SDP Enrollment Process"
+    excerpt: "Find out how to enroll in SDP."
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/tkd.jpg
+    alt: "post enrollment"
+    title: "Post Enrollment"
+    excerpt: "I'm enrolled in SDP. Now what?"
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"      
 ---
+
+{% include feature_row %}
