@@ -1,5 +1,5 @@
 ---
-title: "What is an SDP?
+title: "What is an SDP?"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
