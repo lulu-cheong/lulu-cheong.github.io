@@ -1,8 +1,17 @@
 main:
-  - title: "Posts"
+  - title: "Blog"
     url: /posts/
+  - title: "Resources"
+    url: /docs/faq/
   - title: "About"
     url: /about/
-  - title: "Test"
-    url: /test/
     
+docs:
+  - title: FAQ
+    url: /docs/faq
+  - title: Getting Started
+    children: 
+      - title: FAQ
+      - url: /docs/faq
+      - title: Whatever
+      - url: /docs/faq
